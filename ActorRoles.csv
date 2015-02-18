@@ -1,0 +1,14 @@
+Role Code,Description
+GOV,Government
+MIL,Military
+REB,Rebel
+OPP,Opposition
+PTY,Political Party
+COP,Police and Internal Security
+JUD,Judicial Actor
+SPY Intelligence Service
+MED,Media
+EDU,Educational Actor
+BUS,Business
+CRM,Criminal
+CVL,Civilian

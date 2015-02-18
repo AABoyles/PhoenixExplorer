@@ -36,6 +36,7 @@ temp <- events %>%
   summarize(Count=n()) %>%
   arrange(Date)
 ggplot(temp, aes(lubridate::ymd(Date), Count)) + geom_point() + labs(x="Date")
+ggplot(temp, aes(Count)) + geom_bar(stat="bin") + labs(x="Number of Events")
 
 # Count by Day of Week
 weekdays<-c("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
